@@ -68,7 +68,7 @@ export default function AttendanceTracker({ students, authorizedFetch, showToast
         <div className="flex items-center gap-3">
           <input 
             type="date" 
-            className="px-3 py-2 bg-slate-900 bg-gray-200 border border-slate-850 rounded-xl text-white text-sm focus:outline-none w-auto"
+            className="px-3 py-2 bg-gray-200 border border-slate-850 rounded-xl text-white text-sm focus:outline-none w-auto"
             value={selectedDate}
             onChange={e => setSelectedDate(e.target.value)}
           />
