@@ -68,7 +68,7 @@ export default function StudentAttendanceView({ attendance }) {
 
         {/* Circular Percentage widget */}
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-md flex flex-col items-center justify-center">
-          <h3 className="text-lg font-semibold text-white mb-4 border-b border-slate-800 pb-3 w-full self-start">Cumulative Rate</h3>
+          <h3 className="text-lg font-semibold text-white mb-4 border-b border-slate-800 pb-3 w-full self-start">Attendance Log</h3>
           
           <div className="relative w-36 h-36 flex items-center justify-center my-4">
             <svg viewBox="0 0 36 36" className="w-full h-full transform -rotate-90">
