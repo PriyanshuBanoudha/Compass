@@ -37,11 +37,11 @@ export default function AdminTickets({ tickets, onUpdate, authorizedFetch, showT
       {/* Open tickets */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-md">
         <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <Icon className="text-pink-500" /> Open Tickets ({openTickets.length})
+          <Icon className="text-pink-500" /> Open Issue ({openTickets.length})
         </h3>
         
         {openTickets.length === 0 ? (
-          <div className="text-center py-10 text-slate-500">No pending queries.</div>
+          <div className="text-center py-10 text-slate-500">No pending issues.</div>
         ) : (
           <div className="overflow-x-auto border border-slate-800/80 rounded-xl">
             <table className="w-full text-left text-sm text-slate-400 border-collapse">
