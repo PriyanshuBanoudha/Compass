@@ -51,9 +51,9 @@ export default function Login({ onLogin, showToast, apiBase }) {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-slate-200">
-      <div className={`w-full ${isRegisteringStudent ? 'max-w-2xl' : 'max-w-md'}   rounded-2xl p-8 shadow-2xl transition-all duration-350 ease-in-out`}>
-        <div className="text-center mb-8">
+    <div className="min-h-screen flex items-center justify-center p-6 bg-black">
+      <div className={`w-full ${isRegisteringStudent ? 'max-w-2xl' : 'max-w-md'}   rounded-2xl p-8 shadow-2xl bg-white transition-all duration-350 ease-in-out`}>
+        <div className="text-center bg-white mb-8">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-indigo-600 text-white font-extrabold text-3xl shadow-sm mb-4 p-2">
             C
           </div>
