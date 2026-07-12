@@ -37,7 +37,7 @@ export default function AdminTickets({ tickets, onUpdate, authorizedFetch, showT
       {/* Open tickets */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-md">
         <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <Icon name="ticket" className="text-pink-500" /> Open Tickets ({openTickets.length})
+          <Icon className="text-pink-500" /> Open Tickets ({openTickets.length})
         </h3>
         
         {openTickets.length === 0 ? (
@@ -66,7 +66,7 @@ export default function AdminTickets({ tickets, onUpdate, authorizedFetch, showT
                     <td className="p-4 text-slate-500">{new Date(t.createdAt).toLocaleDateString()}</td>
                     <td className="p-4 text-right">
                       <button onClick={() => setSelectedTicket(t)} className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 ml-auto">
-                        <Icon name="chat" className="w-3.5 h-3.5" /> Answer
+                        <Icon  className="w-3.5 h-3.5" /> Answer
                       </button>
                     </td>
                   </tr>
@@ -80,7 +80,7 @@ export default function AdminTickets({ tickets, onUpdate, authorizedFetch, showT
       {/* Resolved history */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-md">
         <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <Icon name="check" className="text-emerald-500" /> Answered & Resolved ({resolvedTickets.length})
+          <Icon className="text-emerald-500" /> Answered & Resolved ({resolvedTickets.length})
         </h3>
         
         {resolvedTickets.length === 0 ? (
