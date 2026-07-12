@@ -6,9 +6,9 @@ export default function Sidebar({ user, currentView, setCurrentView, handleLogou
     <aside className="w-full md:w-64 bg-slate-900 border-b md:border-b-0 md:border-r border-slate-800 flex flex-col md:h-screen md:sticky md:top-0 z-50">
       <div className="p-5 border-b border-slate-800 flex items-center justify-between md:justify-start gap-3">
         <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
-          S
+          M
         </div>
-        <span className="font-heading font-bold text-lg text-white tracking-wide">Academia Hub</span>
+        <span className="font-heading font-bold text-lg text-white tracking-wide">MyCampus</span>
       </div>
 
       <nav className="flex-1 px-3 py-4 md:py-6 overflow-y-auto">
